@@ -30,15 +30,16 @@ client.on('message', message => {
   }
 });
 
+
 client.on('message', msg => {
   if (msg.content === 'مليكانو') {
-    msg.channel.send(``\`\`\`عيون مليكانو إذا ما رديت كلمني إنستا jor.io\`\`\``);
+    msg.channel.send(`\`\`\`عيون مليكانو إذا ما رديت كلمني إنستا jor.io\`\`\``);
   }
 });
 
 client.on('message', msg => {
   if (msg.content === '<@440081527909515265>') {
-    msg.channel.send(``\`\`\`عيون مليكانو إذا ما رديت كلمني إنستا jor.io\`\`\``);
+    msg.channel.send(`\`\`\`عيون مليكانو إذا ما رديت كلمني إنستا jor.io\`\`\``);
   }
 });
 
