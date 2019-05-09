@@ -25,7 +25,7 @@ client.on('message', message => {
       message.channel.send(``)
   } else
   if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/osamagmt");
+    client.user.setGame(argresult, "https://www.twitch.tv/osama_gmt");
       message.channel.send(``)
   }
 });
@@ -33,7 +33,7 @@ client.on('message', message => {
 
 client.on('message', msg => {
   if (msg.content === 'مليكانو') {
-    msg.channel.send(`\`\`\`عيون مليكانو إذا ما رديت كلمني إنستا jor.io\`\`\``);
+    msg.channel.send(`\`\`\`**عيون مليكانو لو ما رديت عليك كلمني انستا@jor.io**\`\`\``);
   }
 });
 
