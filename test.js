@@ -33,7 +33,7 @@ client.on('message', message => {
 
 client.on('message', msg => {
   if (msg.content === 'مليكانو') {
-    msg.channel.send(`\`\`\`**عيون مليكانو لو ما رديت عليك كلمني انستا@jor.io**\`\`\``);
+    msg.channel.send(`\`\`\`عيون مليكانو لو ما رديت عليك كلمني انستا@jor.io\`\`\``);
   }
 });
 
